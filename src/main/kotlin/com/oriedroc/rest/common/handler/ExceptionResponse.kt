@@ -1,4 +1,4 @@
-package com.oriedroc.rest.exceptions
+package com.oriedroc.rest.common.handler
 
 import java.util.Date
 

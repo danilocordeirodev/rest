@@ -1,4 +1,4 @@
-package com.oriedroc.rest.exceptions
+package com.oriedroc.rest.application.core.exception
 
 import org.springframework.http.HttpStatus
 import org.springframework.web.bind.annotation.ResponseStatus

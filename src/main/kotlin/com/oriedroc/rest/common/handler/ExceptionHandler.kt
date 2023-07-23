@@ -1,5 +1,6 @@
-package com.oriedroc.rest.exceptions
+package com.oriedroc.rest.common.handler
 
+import com.oriedroc.rest.application.core.exception.ResourceNotFoundException
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.ControllerAdvice
