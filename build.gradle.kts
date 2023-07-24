@@ -28,6 +28,9 @@ dependencies {
 	runtimeOnly("com.mysql:mysql-connector-j")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 
+	implementation("com.github.dozermapper:dozer-core:6.4.1")
+
+
 //	//implementation("org.flywaydb:flyway-core")
 //	//implementation("org.flywaydb:flyway-mysql")
 //	testImplementation("org.springframework.boot:spring-boot-testcontainers")
