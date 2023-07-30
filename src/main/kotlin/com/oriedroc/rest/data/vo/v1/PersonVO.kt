@@ -1,10 +1,13 @@
 package com.oriedroc.rest.data.vo.v1
 
+import com.github.dozermapper.core.Mapping
 import jakarta.persistence.*
+import org.springframework.hateoas.RepresentationModel
 
 data class PersonVO (
 
-    var id: Long = 0,
+    @Mapping("id")
+    var key: Long = 0,
 
     var firstName: String = "",
 
@@ -12,4 +15,4 @@ data class PersonVO (
 
     var gender: String = "",
 
-)
+) : RepresentationModel<PersonVO>()
