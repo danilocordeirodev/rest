@@ -28,7 +28,7 @@ class MockPerson {
         return persons
     }
 
-    private fun mockEntity(number: Int): Person {
+    fun mockEntity(number: Int): Person {
         val person = Person()
         person.firstName = "First Name Test$number"
         person.gender = if (number % 2 == 0) "Male" else "Female"
@@ -37,7 +37,7 @@ class MockPerson {
         return person
     }
 
-    private fun mockVO(number: Int): PersonVO {
+    fun mockVO(number: Int): PersonVO {
         val person = PersonVO()
         person.firstName = "First Name Test$number"
         person.gender = if (number % 2 == 0) "Male" else "Female"

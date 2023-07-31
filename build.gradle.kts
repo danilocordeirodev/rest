@@ -27,6 +27,9 @@ dependencies {
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
 	runtimeOnly("com.mysql:mysql-connector-j")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
+	// https://mvnrepository.com/artifact/org.mockito/mockito-core
+	testImplementation("org.mockito:mockito-core:5.4.0")
+
 	// https://mvnrepository.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml
 	implementation("com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.15.2")
 	// https://mvnrepository.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml
