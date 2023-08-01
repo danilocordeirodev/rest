@@ -38,6 +38,10 @@ dependencies {
 
 	implementation("com.github.dozermapper:dozer-core:6.4.1")
 
+	// https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-starter-webmvc-ui
+	implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.1.0")
+
+
 
 //    implementation("org.flywaydb:flyway-core")
 //	implementation("org.flywaydb:flyway-mysql")
